@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #7CFFD2;
+    --square-color: #6495F1;
+    --strong-color: red;
+    --cells-size: 50px;
+}
+
+select {
+    padding: 0 60px;
+}
+
+button {
+    border: 1px solid black;
+    padding: 0 40px;
+    border-radius: 3px;
+}
+
+.section-green {
+    background-color: var(--primary-color);
+}
+
+.grid-container .cell {
+    width: var(--cells-size);
+    height: var(--cells-size);
+    border: 2px solid black;
+}
+
+.red {
+    background-color: var(--strong-color);
+}
+
+.blue {
+    background-color: var(--square-color);
+}
+
+
